@@ -3,3 +3,11 @@
   font-size: 20px;
   font-family: 'Fira Sans';
 }
+
+.text{
+  display: flex;
+  text-align: justify;
+  align-items: center;
+  max-width: 600px;
+  margin: auto;
+}
