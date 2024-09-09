@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Navbar';
 import About from "./About"
 import Events from './Events';
 import Games from './Games';
@@ -8,6 +8,7 @@ import Contact from './Contact';
 function App() {
   return (
     <>
+    <Navbar></Navbar>
     <About></About>
     <Events></Events>
     <Games></Games>
@@ -15,5 +16,3 @@ function App() {
     </>
   );
 }
-
-export default App;
