@@ -12,6 +12,7 @@ export default function Games(){
                     <img src="last_ticket.png"></img>
                 </div>
             </div>
+            <hr></hr>
         </div>
     )
 }
