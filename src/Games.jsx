@@ -1,6 +1,6 @@
 export default function Games(){
     return(
-        <div className="games">
+        <div className="games" id="Games">
             <h4 className="title">Games</h4>
             <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatibus, quo adipisci eaque explicabo expedita impedit nulla et. Illum aliquam libero nobis quis est facere enim unde beatae delectus aliquid. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum nam amet culpa, dolorum quod provident debitis nostrum consequuntur rerum. Repellat atque nisi similique delectus expedita quasi voluptate fugit qui. Excepturi!</p>
             <h2 className="title">Last Ticket</h2>

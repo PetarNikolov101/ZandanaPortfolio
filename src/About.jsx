@@ -3,12 +3,12 @@ export default function About(){
     return(
         <>
         <div>
-            <h3 className="title">About</h3>
+            <h3 className="title" id="About">About</h3>
             <div className="about about-text text"style={{ color: 'black', fontSize: '16px' }}>
                 <p className="about about-text text">{text}</p>
             </div>
             <div className="image">
-                <img className="logo" src="zandana_bejzh.png"></img>
+                <img className="logo2" src="zandana_bejzh.png"></img>
             </div>
         </div>
         <hr></hr>

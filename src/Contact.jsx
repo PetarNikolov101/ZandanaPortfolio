@@ -1,7 +1,7 @@
 export default function Contact(){
     return (
         <>
-        <footer className="text-center">
+        <footer className="text-center" id="Contact">
             <h4 className="title">Contact</h4>
             
             <div className="container pt-2">
@@ -25,7 +25,7 @@ export default function Contact(){
 
                 <a data-mdb-ripple-init
                 className="btn btn-link btn-floating btn-lg text-body m-1"
-                href="https://www.instagram.com/zandana.mk/"
+                href="https://zandanamk.itch.io/"
                 role="button"
                 data-mdb-ripple-color="dark"
                 target="_blank"

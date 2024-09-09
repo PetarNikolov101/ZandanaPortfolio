@@ -5,7 +5,7 @@ import Events from './Events';
 import Games from './Games';
 import Contact from './Contact';
 
-function App() {
+export default function App() {
   return (
     <>
     <Navbar></Navbar>
