@@ -2,6 +2,57 @@
   font-weight: medium;
   font-size: 20px;
   font-family: 'Fira Sans';
+  background-color: black;
+  color: white;
+}
+
+.about{
+  color: white;
+  font-weight: medium;
+  font-size: 20px;
+  font-family: 'Fira Sans';
+}
+
+.desc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  margin: 20px auto; 
+  max-width: 100%; 
+}
+
+.desc-img {
+  max-width: 400px;
+  max-height: 400px;
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.title{
+  padding-top: 5px;
+  text-align: center;
+  font-size: 45px;
+}
+
+.carousel {
+  max-width: 60%; /* Adjust this to make it smaller horizontally */
+  max-height: 60%; /* Adjust this for the vertical size */
+  margin: 0 auto; /* Centers the carousel horizontally */
+}
+
+.carousel img {
+  object-fit: cover; /* Ensures the images don't get stretched */
+  height: 100%; /* Ensures the image takes up the full height of the carousel */
+  width: 100%;
+}
+
+.desc-text{
+  max-width: 600px;
+  color: white;
+  text-align: justify;
+  padding: 1em;    
+  justify-content: center;
 }
 
 .text{
@@ -9,5 +60,12 @@
   text-align: justify;
   align-items: center;
   max-width: 600px;
+  margin: auto;
+}
+
+.logo{
+  max-width: 600px;
+  display: flex;
+  align-items: center;
   margin: auto;
 }
