@@ -1,9 +1,7 @@
 export default function Contact(){
     return (
         <>
-        <footer className="text-center" id="Contact">
-            <h4 className="title">Contact</h4>
-            
+        <footer className="text-center" id="Contact">  
             <div className="container pt-2">
             <section className="mb-4">
                 <a data-mdb-ripple-init

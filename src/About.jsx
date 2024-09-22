@@ -3,7 +3,7 @@ export default function About(){
     return(
         <>
         <div className="about-full">
-            <h3 className="title" id="About">About</h3>
+            <h3 className="title" id="About">Who are we?</h3>
             <div className="desc">
             <div className="desc-text"style={{ color: 'black', fontSize: '16px' }}>
                 <p className="about about-text text">{text}</p>

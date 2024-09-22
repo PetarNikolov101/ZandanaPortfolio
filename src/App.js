@@ -11,9 +11,11 @@ export default function App() {
   return (
     <>
     <CustomNavbar></CustomNavbar>
+    <div id="bdy">
     <About></About>
     <Events></Events>
     <Games></Games>
+    </div>
     <Contact></Contact>
     </>
   );

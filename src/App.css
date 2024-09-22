@@ -2,9 +2,20 @@
   font-weight: medium;
   font-size: 20px;
   font-family: 'Fira Sans';
-  background-color: rgb(80, 67, 59);
-  color: white;
+  background-image: url('../public/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: rgb(0, 0, 0);
 }
+
+#bdy{
+  background-color: rgba(62, 141, 78, 0.4);
+
+  max-width: 1000px;
+  margin: auto;
+}
+
 .logo{
   width: 200px;
 }
@@ -65,11 +76,10 @@
 }
 
 .about-full{
-  padding-top: 2em;
+  padding-top: 6em;
 }
 
 .about{
-  color:white;
   font-weight: medium;
   font-size: 20px;
   font-family: 'Fira Sans';
@@ -111,7 +121,6 @@
 
 .desc-text{
   max-width: 600px;
-  color: white;
   text-align: justify;
   padding: 1em;    
   justify-content: center;
