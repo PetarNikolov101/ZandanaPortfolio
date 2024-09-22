@@ -2,7 +2,7 @@
   font-weight: medium;
   font-size: 20px;
   font-family: 'Fira Sans';
-  background-color: black;
+  background-color: rgb(80, 67, 59);
   color: white;
 }
 .logo{
@@ -11,10 +11,14 @@
 
 
 .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 25px; 
+  z-index: 1000;
 }
 
 .navbar-logo {
@@ -44,6 +48,12 @@
   float: right;
 }
 
+@media(max-width: 500){
+  .carousel{
+    max-width: 600px;
+  }
+}
+
 @media (max-width: 768px) {
   .navbar-nav {
     justify-content: flex-start;
@@ -54,8 +64,12 @@
   }
 }
 
+.about-full{
+  padding-top: 2em;
+}
+
 .about{
-  color: white;
+  color:white;
   font-weight: medium;
   font-size: 20px;
   font-family: 'Fira Sans';
@@ -112,7 +126,7 @@
 }
 
 .logo2{
-  max-width: 600px;
+  max-width: 300px;
   display: flex;
   align-items: center;
   margin: auto;

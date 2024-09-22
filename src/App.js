@@ -1,14 +1,16 @@
 import './App.css';
-import Navbar from './Navbar';
+import CustomNavbar from './CustomNavbar';
 import About from "./About"
 import Events from './Events';
 import Games from './Games';
 import Contact from './Contact';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Parallax, ParallaxLayer} from '@react-spring/parallax'
 
 export default function App() {
   return (
     <>
-    <Navbar></Navbar>
+    <CustomNavbar></CustomNavbar>
     <About></About>
     <Events></Events>
     <Games></Games>

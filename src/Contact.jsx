@@ -30,6 +30,14 @@ export default function Contact(){
                 data-mdb-ripple-color="dark"
                 target="_blank"
                 ><img src="itchio.png" style={{maxWidth: '30px'}}></img></a>
+
+                <a data-mdb-ripple-init
+                className="btn btn-link btn-floating btn-lg text-body m-1"
+                href="https://www.facebook.com/profile.php?id=61565954883386"
+                role="button"
+                data-mdb-ripple-color="dark"
+                target="_blank"
+                ><img src="facebook.webp" style={{maxWidth: '45px'}}></img></a>
             </section>
             </div>
             <div className="text-center p-3" style={{ backgroundColor: 'rgb(0,0,0)', color: "white"}}>
