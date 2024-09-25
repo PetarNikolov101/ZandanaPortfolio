@@ -1,16 +1,16 @@
 export default function Games(){
     return(
-        <div className="games" id="Games">
+        <div className="games">
             <h4 className="title">Games</h4>
-            <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatibus, quo adipisci eaque explicabo expedita impedit nulla et. Illum aliquam libero nobis quis est facere enim unde beatae delectus aliquid. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum nam amet culpa, dolorum quod provident debitis nostrum consequuntur rerum. Repellat atque nisi similique delectus expedita quasi voluptate fugit qui. Excepturi!</p>
+            <p className="text para">Other than organizing these events and creating compellinh stories for people to experience, we also design our own table top role playing games. We participated on the 2024 One Page RPG Jam with out game Last Ticket, as well as on Galactic Omnivore and Print&Play's TTRPG workshop.</p>
            <hr></hr>
            <h2 className="title">Last Ticket</h2>
             <div className="desc">                
                 <div className="desc-text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum debitis quidem nam voluptates molestiae assumenda! Dolores, nesciunt laborum perferendis esse dolorum aut aspernatur amet expedita repellat excepturi, quo, alias tenetur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nihil iure ipsum provident! Sed delectus, magnam officiis quisquam culpa, sequi animi, harum aperiam aliquam possimus doloremque soluta quis natus eaque.</p>
+                    <p>LAST TICKET is a survival horror TTRPG centered around a group of 3 survivors and their escape from a haunted subway station. The Conductor will not let them leave without a ticket. All the exits are closed, and something is watching them from the shadows. The aim of the game is to find a ticket so that the players may leave the station safely.</p>
                 </div>
                 <div className="desc-img">
-                    <img src="last_ticket.png"></img>
+                    <a href="https://zandanamk.itch.io/last-ticket" target="_blank"><img src="last_ticket.png"></img></a>
                 </div>
             </div>
             <hr></hr>

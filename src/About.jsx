@@ -6,14 +6,14 @@ export default function About(){
             <h3 className="title" id="About">Who are we?</h3>
             <div className="desc">
             <div className="desc-text"style={{ color: 'black', fontSize: '16px' }}>
-                <p className="about about-text text">{text}</p>
+                <p className="about about-text">{text}</p>
             </div>
             <div className="desc-img">
                 <img className="logo2" src="zandana_bejzh.png"></img>
             </div>
             </div>
         </div>
-        <hr></hr>
+        <hr id="Events"></hr>
         </>
     )
 }
