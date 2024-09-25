@@ -125,11 +125,13 @@
 }
 
 .text{
-  display: flex;
+  padding: 1em;
   text-align: justify;
-  align-items: center;
-  max-width: 650px;
-  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+
+  margin:auto; 
+  max-width: 100%; 
 }
 
 .logo2{
@@ -140,5 +142,5 @@
 }
 
 .para{
-  padding: 1em;
+  padding: 0.1em;
 }

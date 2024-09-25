@@ -5,7 +5,7 @@ import Events from './Events';
 import Games from './Games';
 import Contact from './Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Parallax, ParallaxLayer} from '@react-spring/parallax'
+
 
 export default function App() {
   return (
